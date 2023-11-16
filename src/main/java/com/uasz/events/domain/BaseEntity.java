@@ -1,5 +1,5 @@
 package com.uasz.events.domain;
-
+//
 import java.time.LocalDateTime;
 
 import org.hibernate.annotations.CreationTimestamp;

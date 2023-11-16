@@ -1,5 +1,5 @@
 package com.uasz.events.domain;
-
+//
 public class AccountCredentials {
 	private String username;
 	private String password;
