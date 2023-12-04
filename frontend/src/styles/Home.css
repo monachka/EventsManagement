@@ -1,0 +1,136 @@
+.slideshow-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Deux colonnes égales */
+  gap: 20px; /* Espacement entre les colonnes */
+}
+
+.text-overlay {
+  padding: 20px; /* Ajoutez un padding pour l'espace autour du texte */
+  text-align: left;
+}
+
+.team-title-container {
+  grid-column: span 2; /* Le titre s'étend sur les deux colonnes */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.team-title {
+  display: inline-block;
+ 
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.team-photos-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Deux colonnes égales */
+  gap: 10px; /* Espacement entre les images */
+  justify-content: center; /* Centre les images horizontalement */
+  align-items: center; /* Centre les images verticalement */
+}
+
+.team-member {
+  text-align: center; /* Centre le texte dans le conteneur */
+}
+
+.team-photo {
+  width: 100px; /* Ajustez la taille des photos selon vos besoins */
+  height: 100px; /* Ajustez la taille des photos selon vos besoins */
+  border-radius: 50%; /* Ajoutez un effet de bord arrondi */
+}
+
+.photo-description {
+  margin-top: 5px; /* Ajoutez un espace entre la photo et la description */
+}
+
+
+
+
+.content {
+  width: 100%;
+  height: 100%; /* Utilisation de 100% de la hauteur de la fenêtre */
+  overflow: hidden; /* Assure que l'image ne dépasse pas la div */
+  
+}
+
+
+/* Animation de l'opacité */
+
+
+
+.photo {
+  width: 30%;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.photo1 {
+  padding: 10px;
+  text-align: center;
+  background-image: url('../img/gold.jpg');
+  width: 97%;
+  height: 300px;
+  background-size: cover;
+}
+
+.photo2 {
+  padding: 10px;
+  text-align: center;
+  background-image: url('../img/mariage.jpeg');
+  width: 97%;
+  height: 300px;
+  background-position: center;
+}
+
+.photo3 {
+  padding: 10px;
+  text-align: center;
+  background-image: url('../img/Mariage.jpg');
+  width: 97%;
+  height: 300px;
+  background-size: cover;
+}
+
+.photo4 {
+  padding: 10px;
+  text-align: center;
+  background-image: url('../img/RepasCocktail.jpg');
+  width: 97%;
+  height: 300px;
+  background-size: cover;
+}
+
+.photo5 {
+  padding: 10px;
+  text-align: center;
+  background-image: url('../img/RepasCocktailDiner.jpg');
+  width: 97%;
+  height: 300px;
+  background-size: cover;
+}
+
+.photo6 {
+  padding: 10px;
+  text-align: center;
+  background-image: url('../img/gala.jpeg');
+  width: 97%;
+  height: 300px;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+

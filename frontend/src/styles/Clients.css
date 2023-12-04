@@ -1,0 +1,183 @@
+  .event-list-container {
+    padding: 20px;
+  }
+    
+  .create-event-button {
+    float: right;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .event-list-box {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: gainsboro;
+  }
+
+  .event-list-box2 {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgb(190, 189, 187);
+  }
+
+  .in-box {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+  }
+  
+  .event-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+  }
+  
+  .event-item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 350px;
+  }
+
+  .events{
+    width: 100%;
+  }
+
+  
+  .event-details {
+    text-align: left;
+  }
+  
+
+
+  .photo {
+    width: 30%;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container{
+    display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 20px;
+  }
+  .photo1 {
+    padding: 10px;
+    text-align: center;
+    background-image: url('../img/gold.jpg');
+    width: 97%;
+    height: 300px;
+    background-size: cover;
+  }
+  
+  .photo2 {
+    padding: 10px;
+    text-align: center;
+    background-image: url('../img/mariage.jpeg');
+    width: 97%;
+    height: 300px;
+    background-position: center;
+  }
+  
+  .photo3 {
+    padding: 10px;
+    text-align: center;
+    background-image: url('../img/Mariage.jpg');
+    width: 97%;
+    height: 300px;
+    background-size: cover;
+  }
+  
+  .photo4 {
+    padding: 10px;
+    text-align: center;
+    background-image: url('../img/RepasCocktail.jpg');
+    width: 97%;
+    height: 300px;
+    background-size: cover;
+  }
+  
+  .photo5 {
+    padding: 10px;
+    text-align: center;
+    background-image: url('../img/RepasCocktailDiner.jpg');
+    width: 97%;
+    height: 300px;
+    background-size: cover;
+  }
+  
+  .photo6 {
+    padding: 10px;
+    text-align: center;
+    background-image: url('../img/gala.jpeg');
+    width: 97%;
+    height: 300px;
+    background-size: cover;
+  }
+
+
+  .event-title {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .event-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .event-image {
+    width: 160px; /* Ajustez la largeur selon vos besoins */
+    height: 160px; /* Ajustez la hauteur selon vos besoins */
+    margin-right: 20px;
+  }
+  
+  .event-details {
+    flex-grow: 1;
+  }
+  
+  .event-type {
+    font-size: 20px;
+  }
+  
+  .prestataire-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 51px;
+  }
+  
+  .prestataire-item {
+    margin-bottom: 5px;
+  }
+  
+  .star {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+  }
+
+  .event-actions {
+    display: flex;
+    justify-content: center; /* Centre les éléments horizontalement */
+    margin-top: 20px; /* Ajustez la marge selon vos besoins */
+  }
+  
+  .actionne {
+    flex: 1;
+  }
+  

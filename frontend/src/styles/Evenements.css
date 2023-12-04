@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.photo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.photo {
+    width: 30%;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+}
+.photo-info1 {
+    padding: 10px;
+    text-align: center;
+    background-image: url('../img/Concert.jpg');
+    width: 97%;
+    height: 300px;
+    background-size: cover;
+}
+.photo-info2 {
+    padding: 10px;
+    text-align: center;
+    background-image: url('../img/RepasCocktail.jpg');
+    width: 97%;
+    height: 300px;
+    background-size: cover;
+}
+.photo-info3 {
+    padding: 10px;
+    text-align: center;
+    background-image: url('../img/AudioVisuel.jpg');
+    width: 97%;
+    height: 300px;
+    background-size: cover;
+}
+.photo-info4 {
+    padding: 10px;
+    text-align: center;
+    background-image: url('../img/Anniversaire.jpg');
+    width: 97%;
+    height: 300px;
+    background-size: cover;
+}
+.photo-info5 {
+    padding: 10px;
+    text-align: center;
+    background-image: url('../img/Reunion.jpg');
+    width: 97%;
+    height: 300px;
+    background-size: cover;
+}
+.photo-info6 {
+    padding: 10px;
+    text-align: center;
+    background-image: url('../img/mariage.jpeg');
+    width: 97%;
+    height: 300px;
+    background-size: cover;
+}
+
+
+.photo-info7 {
+    padding: 10px;
+    text-align: center;
+    background-image: url('../img/Cinema.jpg');
+    width: 97%;
+    height: 300px;
+    background-size: cover;
+}
+
+
+.photo-info8 {
+    padding: 10px;
+    text-align: center;
+    background-image: url('../img/conference1.jpg');
+    width: 97%;
+    height: 300px;
+    background-size: cover;
+}
+.photo-info9 {
+    padding: 10px;
+    text-align: center;
+    background-image: url('../img/Soiree1.jpg');
+    width: 97%;
+    height: 300px;
+    background-size: cover;
+}
+
+.photo-info10 {
+    padding: 10px;
+    text-align: center;
+    background-image: url('../img/seminaire.jpg');
+    width: 97%;
+    height: 300px;
+    background-size: cover;
+}
+
+.photo-info11 {
+    padding: 10px;
+    text-align: center;
+    background-image: url('../img/reception.jpeg');
+    width: 97%;
+    height: 300px;
+    background-position: center;
+}
+.photo-info12 {
+    padding: 10px;
+    text-align: center;
+    background-image: url('../img/dinerGala.jpg');
+    width: 97%;
+    height: 300px;
+    background-size: cover;
+}
+
+
+
+
+
+
+

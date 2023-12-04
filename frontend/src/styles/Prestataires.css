@@ -1,0 +1,117 @@
+.event-list-container {
+  padding: 30px;
+}
+
+.event-list-box {
+  margin-top: 20px;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.event-item {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: calc(33.33% - 20px);
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  @media (max-width: 768px) {
+    width: calc(50% - 20px);
+  }
+
+  @media (max-width: 480px) {
+    width: 100%;
+  }
+}
+
+.pres-image-container {
+  margin-right: 20px;
+}
+
+.pres-image {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.pres-details {
+  flex-grow: 1;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Add more styles as needed */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.confirm-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  color: #4caf50; /* Green color for the check icon */
+  /*transition: color 0.3s ease;*/
+
+  &:hover {
+    color: #f0f8f0; /* Darker green color on hover */
+  }
+
+/*  &.reject-button {
+    color: red; 
+    &:hover {
+      color: darkred; 
+    }
+  }
+*/
+}
+.reject-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  color: red; /* Green color for the check icon */
+  /*transition: color 0.3s ease;*/
+
+  &:hover {
+    color: #f0f8f0; /* Darker green color on hover */
+  }
+
+}
+
+
+.star {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}

@@ -1,0 +1,116 @@
+.footer {
+  background-color: rgb(45, 45, 44);
+    color: #fff;
+    padding: 40px 0;
+    margin: auto;
+    /* width: 50%; */
+    padding: 10px;
+  }
+  
+  /* Footer content container */
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Footer logo styles */
+  .footer-logo img {
+    width: 100px;
+  }
+  
+  /* Footer info styles */
+  .footer-info {
+    flex: 1;
+    max-width: 250px;
+    text-align: justify;
+  }
+  
+  /* Footer categories styles */
+  .footer-categories {
+    flex: 1;
+    max-width: 250px;
+  }
+  
+  .footer-categories h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-categories ul {
+    list-style: none;
+    padding: 0;
+    text-align: justify;
+  }
+  
+  .footer-categories li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-categories a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  .footer-categories a:hover {
+    color: #ff5733; /* Change the color on hover */
+  }
+  
+  /* Footer contact styles */
+  .footer-contact {
+    flex: 1;
+    max-width: 250px;
+    text-align: justify;
+  }
+  
+  .footer-contact h4 {
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+  
+  .titre{
+    color: orangered;
+    text-align: justify;
+  }
+
+  /* Footer bottom text */
+  .footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(45, 45, 44);
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    color: #fff;
+  }
+
+  .footer-social {
+    display: flex;
+    align-items: center;
+    /* margin-top: 35px; */
+    /* margin-left: 545px; */
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .footer-social a {
+    color: blue;
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 10px;
+    transition: color 0.3s;
+    
+  }
+  
+  .footer-social a:hover {
+    color: #ff5733; /* Change the color on hover */
+  }
+
+  .social{
+    padding-right: 55px;
+  }

@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.background-image-contact {
+    position: relative;
+    height: 100vh;
+    background-color: blanchedalmond;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.overlay {
+    content: "";
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.background-image-contact {
+    position: relative;
+    height: 100vh;
+    overflow: hidden; /* Assure que le voile reste à l'intérieur de la div */
+}
+
+.background-image-contact::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.0); /* Couleur du voile (noir avec une opacité de 0.7) */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Assure que le voile est au-dessus de l'image de fond */
+}
+
+.text-over-image-contact {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: rgba(247, 238, 238, 0.952);
+    z-index: 2; /* Assure que le texte est au-dessus du voile */
+}
+
+.text-over-image h1 {
+    font-size: 3em;
+}
+
+.text-over-image p {
+    font-size: 1.2em;
+}
+
+section h1 {
+    border: 1px solid blue;
+    border-radius: 5px;
+    max-width: 800px;
+    margin: 20px auto;
+    color: rgb(8, 70, 70);
+    padding: 20px;
+}
+/*.about-section-contact {
+    background-color:gray;
+}
+.team-section-contact{
+    background-color: gray;
+}
+*/
+.about-section-contact,
+.team-section-contact {
+    background-color: rgb(8, 70, 70);
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid rgb(8, 70, 70);
+    border-radius: 5px;
+    position: relative;
+    z-index: 10; /* Assure que le contenu est au-dessus du voile */
+}
+
+.team-member-contact {
+    text-align: center;
+    margin: 20px;
+   
+}
+
+.contact{
+    color: rgb(8, 70, 70);
+}
